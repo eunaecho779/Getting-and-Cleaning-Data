@@ -13,3 +13,15 @@ The script run_analysis.R performs these 5 process.
   : created a tidy data set using write.data() function
 
 # Variables
+- Subject : the subject ID
+- Activity : the list of activity names which include
+  walking
+  walking upstairs
+  walking downstairs
+  siting
+  standing
+  laying
+- TimeAAABBBMean()-X,Y,Z : Time domain AAA BBB mean along X, Y, and Z
+- TimeAAABBBSTD()-X,Y,Z : Time domain AAA BBB standard deviation along X, Y, and Z
+- FrequencyAAABBBMean()-X,Y,Z : Frequency domain AAA BBB mean along X, Y, and Z
+- FrequencyAAABBBSTD()-X,Y,Z : Frequency domain AAA BBB staandard deviation along X, Y, and Z
